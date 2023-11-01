@@ -1,0 +1,10 @@
+steps:
+  - name: ubuntu
+    args:
+      - echo
+      - hello world
+  - name: gcr.io/cloud-builders/gsutil
+    args:
+      - cp
+      - README.md
+      - 'gs://demo1_raw/'
