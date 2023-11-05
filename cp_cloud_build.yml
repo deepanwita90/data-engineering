@@ -10,4 +10,4 @@ steps:
       - 'gs://demo1_raw/'
   - name: gcr.io/cloud-builders/gcloud
     entrypoint: 'bash'
-    args: ['shell/bq_cmd_exec.sh', 'sql/ddl_celebrities.sql']
+    args: ['shell/bq_cmd_exec.sh', 'sql/ddl_celebrities.sql', 'sql/insert_celebrities.sql']

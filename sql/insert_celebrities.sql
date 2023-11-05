@@ -1,0 +1,2 @@
+insert into `raw.celebrities` (id, first_name, last_name, country, dob) values (1, 'Gal', 'Gadot', 'Israel', '1985-04-30');
+insert into `raw.celebrities` (id, first_name, last_name, country, dob) values (2, 'Sai', 'Pallavi', 'India', '1992-05-09');
