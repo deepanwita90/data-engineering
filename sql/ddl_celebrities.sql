@@ -1,4 +1,4 @@
-create table if not exists `sound-temple-395208.raw.celebrities`
+create table if not exists `river-vigil-404604.raw.celebrities`
 (
 id integer,
 first_name string,
